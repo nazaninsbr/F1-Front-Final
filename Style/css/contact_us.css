@@ -1,0 +1,234 @@
+body {
+    background-color: #DFE0E0;
+}
+.font_pacifico{
+    font-family: 'Pacifico', cursive;
+}
+.site_main {
+    background-color: white;
+}
+
+
+.site_container {
+    padding: 5px 40px;
+    overflow: hidden;
+}
+.site_header {
+    width: 100%;
+    min-height: 80px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.site_logo:hover {
+    text-decoration: none;
+}
+.logo_font {
+    font-size: 56px;
+    color: #278EC4;
+}
+.signUp {
+    position: absolute;
+    right: 5%;
+    top: 7%;
+    color: #278EC4;
+}
+.nav_bar_desktop {
+    width: 100%;
+    height: 60px;
+}
+.nav_bar_elements {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.nav_bar_elements li {
+    padding: 20px 0px;
+}
+.nav_bar_element {
+    color: #035E8D;
+    text-decoration: none;
+}
+.nav_bar_element:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #278EC4;
+    border-bottom-color: coral;
+}
+#starting_title{
+    position: relative;
+    width: inherit;
+    text-align: center;
+    background-color: #278EC4;
+    color: white;
+    height: 200px;
+}
+#starting_title h1 {
+    position: absolute;
+    top: 25%;
+    left: 38%;
+}
+#our_office {
+	width: inherit;
+	min-height: 400px;
+	margin: 0px;
+	padding: 0px;
+}
+#our_office .container {
+    background-color: white;
+	padding-left: 145px;
+	padding-right: 145px;
+	padding-top: 20px;
+	margin-bottom: 0px;
+	width: 100%;
+	height: 300px;
+	vertical-align: middle;
+	display: inline-block;
+}
+ul {
+	list-style: none;
+}
+.li_image{
+	display: list-item;
+	width: 460px;
+	height: 300px;
+	vertical-align: baseline;
+	width: 50%;
+	float: left;
+}
+img {
+	width:100%;
+	position: absolute;
+}
+.office_1 {
+	width: 475px;
+	height: 270px;
+}
+.office_2 {
+	width: 450px;
+	height: 270px;
+}
+.on_img_text_1 {
+	position: absolute;
+	top: 370px;
+	left: 400px;
+	display: inline-block;
+	text-align: center;
+	color: white; 
+}
+.on_img_text_2 {
+	position: absolute;
+	top: 370px;
+	right: 350px;
+	display: inline-block;
+	text-align: center;
+	color: white; 
+}
+.office_info {
+    background-color: white;
+    width: inherit;
+    padding: 5px auto;
+/*
+    display: block;
+    padding-left: 160px;
+	padding-right: 160px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+*/
+    height: 200px;
+/*	align-items: center;*/
+}
+.office_info address a{
+    margin-left: 400px;
+	margin-right: 300px;
+    color: dimgrey;
+    display: inline-block;
+    text-align: center;
+}
+.office_info address p a{
+    margin-left: 0px;
+	margin-right: 0px;
+}
+.office_info p {
+    color: dimgrey;
+    text-align: center;
+}
+.office_info p a{
+    color: inherit;
+    text-decoration: underline;
+}
+.button.black {
+    margin-left: 510px;
+	margin-right: 410px;
+    align-self: center;
+    text-align: center;
+    background: black;
+    line-height: 60px;
+    display: block;
+    width: 140px;
+    height: 70px;
+}
+.button {
+  color: snow;
+}
+#social_media {
+    background-color: white;
+    width: inherit;
+	padding: 40px auto;
+	margin: 0px;
+	height: 95px;
+}
+.social {
+	width: 30px;
+	height: 30px;
+	margin: 40px 5px;
+	background-color: black;
+	background-size: 100%;
+	display: inline-block;
+}
+.facebook {
+	background-image: url(../image/facebook.svg)
+}
+.twitter {
+	background-image: url(../image/twitter.png)
+}
+.instagram {
+	background-image: url(../image/instagram.png)
+}
+.telegram {
+	background-image: url(../image/telegram.ico);
+}
+footer {
+    width: inherit;
+    background-color: black;
+    min-height: 250px;
+}
+.footer_logo {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: -130px;
+    font-size: 60px;
+}
+.slogan {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    color: #F4F2F0;
+}
+.copy_right p {
+    color: #99958E;
+    position: relative;
+    top: 75px;
+    text-align: center;
+}
+.copy_right a {
+    color: #F4F2F0;
+}
+.horiz_line {
+    position: relative;
+    top: 60px;
+}

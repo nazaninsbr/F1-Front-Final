@@ -1,0 +1,403 @@
+* {
+    box-sizing: border-box;
+    
+}
+div {
+    display: block;
+}
+body {
+    background-color: #DFE0E0;
+}
+.font_pacifico{
+    font-family: 'Pacifico', cursive;
+}
+.site_main {
+    background-color: white;
+}
+
+
+.site_container {
+    padding: 5px 40px;
+    overflow: hidden;
+}
+.site_header {
+    width: 100%;
+    min-height: 80px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+    .site_logo:hover {
+        text-decoration: none;
+    }
+    .logo_font {
+        font-size: 56px;
+        color: #278EC4;
+    }
+    .signUp {
+        position: absolute;
+        right: 5%;
+        top: 7%;
+        color: #278EC4;
+    }
+    .nav_bar_desktop {
+        width: 100%;
+        height: 60px;
+    }
+    .nav_bar_elements {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav_bar_elements li {
+        padding: 20px 0px;
+    }
+    .nav_bar_element {
+        color: #035E8D;
+        text-decoration: none;
+    }
+    .nav_bar_element:hover {
+        cursor: pointer;
+        text-decoration: none;
+        color: #278EC4;
+        border-bottom-color: coral;
+    }
+.book_shelf {
+    background-color: #0076A4;
+    min-height: 250px;
+    width: 100%;
+}
+/*
+    .book_shelf_ul {
+        padding-top: 25px;
+        vertical-align: middle;
+        display: table-cell;
+        vertical-align: middle;
+        list-style: none;
+    }
+*/
+.book_padding{
+    padding-top: 20px;
+}
+
+/*
+ .book {
+    display: inline-block;
+    margin-left: 5em;
+     width: 180px;
+    height: 250px;
+    position: relative;
+    background: white;
+    z-index: 1;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 9px 20px 0 rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    -webkit-transition: box-shadow .3s linear;
+    transition: box-shadow .3s linear;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+*/
+.book img {
+    width: 100%;
+    height: 200%;
+    -webkit-transform-origin:110% 0;
+    transform-origin: 110% 0;
+    -webkit-transform: rotateY(-180);
+    transform: rotateY(-180);
+    -webkit-transition: all .45s ease;
+    transition: all .45s ease;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.book:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25), 0 9px 20px 0 rgba(0, 0, 0, 0.45);
+}
+.book:hover img {
+    -webkit-transform: rotateY(25deg);
+    transform: rotateY(25deg);
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.book_shelf_description {
+    color: white;
+    text-align: center;
+}
+.new_stuff{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+}
+.new_stuff_a{
+    text-decoration: none;
+}
+.new_stuff_a:hover {
+    text-decoration: none;
+    text-decoration-color: royalblue;
+    color: royalblue;
+}
+.new_stuff_image{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
+}
+.new_stuff_image:hover {
+    opacity: 0.5;
+}
+.main_description {
+    width: 100%;
+    height: 350px;
+    background: url('https://www.designboom.com/weblog/images/images_2/anita/futurcultur06.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.main_description_row{
+    text-align: center;
+}
+.main_description_row p{
+    text-align: justify;
+    color: black;
+    font-size: 16px;
+}
+.about_content{
+    position: absolute;
+    top: 30%;
+}
+.introduce_editions {
+    width: inherit;
+    min-height: 200px;
+    position: absolute;
+    display: block;
+    background-color: white;
+} 
+.intro_editions_a {
+    background-color: rgba(255,255,255,0.5);
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+}
+    .site_parts_heading {
+        text-align: center;
+    }
+    .feature_f1 {
+        width: 100%;
+        height: 370px;
+        background-color: #F9FAFB;
+    }
+    .feature_f1_description {
+        height: inherit;
+    }
+    .feature_f1_part:hover{
+        box-shadow: 0 0 20px 7px rgba(230,231,233,0.5);
+        transition: all .2s;
+        background-color: white;
+    }
+    .feature_f1_part {
+        text-align: center;
+    }
+    .feature_f1_part p {
+        margin: 20px 20px;
+    }
+    .feature_image {
+        margin: 20px 0px;
+        width:100px;
+        height: 100px;
+    }
+    .feature_image img {
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 9px 20px 0 rgba(0, 0, 0, 0.25);
+        margin: 0px 135px;
+        width: 100px;
+        height: 100px;
+    }
+.rolling_image {
+    height: 400px;
+    width: 100%;
+}
+.testimonials {
+    width: 100%;
+    min-height: 300px;
+    color: black;
+    background:white;
+    font-size: 10px;
+    position: relative;
+    direction: rtl;
+    text-align: justify;
+}
+
+.person_who_said_it{
+    text-align: center;
+    font-size: 14px;
+    float: left;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.item-1, 
+.item-2, 
+.item-3 {
+	position: absolute;
+  display: block;
+	top: 3em;
+  
+  width: 60%;
+  
+  font-size: 2em;
+
+	-webkit-animation-duration: 20s;
+
+	        animation-duration: 20s;
+	-webkit-animation-timing-function: ease-in-out;
+	        animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+
+.item-1{
+	-webkit-animation-name: anim-1;
+	        animation-name: anim-1;
+}
+
+.item-2{
+	-webkit-animation-name: anim-2;
+	        animation-name: anim-2;
+}
+
+.item-3{
+	-webkit-animation-name: anim-3;
+	        animation-name: anim-3;
+}
+
+@-webkit-keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@-webkit-keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@-webkit-keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+.contact_us_part {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    background-image: url("./Style/image/magazines2.jpg");
+}
+.contact_us_image {
+    opacity: 0.5;
+    width: inherit;
+}
+.contact_us_content {
+    float: left;
+    display: block;
+    position: absolute;
+    top: 40%;
+    margin-right: 1.6949152542%;
+    width: 49.1525423729%;
+    margin-left: 25.4237288136%;
+}
+.contact_us_background {
+    width: 100%;
+}
+.contact_us_title {
+    color: black;
+    font-weight: bold;
+}
+.contact_us_form>input {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+.contact_us_form>button{
+    background-color: darkorange;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px;
+    border: none;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1220px){
+    .book {
+    display: inline-block;
+    margin-left: 5em;
+/*    
+     width: 180px;
+    height: 250px;
+*/
+    position: relative;
+    background: white;
+    z-index: 1;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 9px 20px 0 rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    -webkit-transition: box-shadow .3s linear;
+    transition: box-shadow .3s linear;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    }   
+}
+@media screen and (max-width: 1219px){
+    .book {
+    display: inline-block;
+/*    
+     width: 180px;
+    height: 250px;
+*/
+    position: relative;
+    background: white;
+    z-index: 1;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 9px 20px 0 rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    -webkit-transition: box-shadow .3s linear;
+    transition: box-shadow .3s linear;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    }
+    .main_description_row p{
+        font-size: 24px;
+    }
+    .testimonials {
+        font-size: 20px;
+        min-height: 500px;
+    }
+}

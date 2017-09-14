@@ -1,0 +1,95 @@
+body {
+    display: block;
+    background-color: #EFF1F2;
+}
+.font_cls {
+        font:13.5px/20px yekan;
+}
+.site_logo:hover {
+    text-decoration: none;
+}
+.logo_font {
+    font-size: 56px;
+    color: #278EC4;
+}
+.font_pacifico{
+    font-family: 'Pacifico', cursive;
+}
+.info p{
+    direction: rtl;
+    float: right;
+}
+.details_logo {
+    margin: 0px 50px;
+}
+.details_logo p {
+    margin-top: 5px;
+    text-align: center;
+}
+.mail {
+    align-self: center;
+    color: gray;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+.details {
+    align-content: center;
+}
+ul {
+	list-style: none;
+}
+li{
+    font-family: inherit;
+	display: list-item;
+	vertical-align: baseline;
+    margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+}
+li a {
+    color: black;
+}
+li a:hover {
+    text-decoration: none;
+    color: lightskyblue;
+}
+@media screen and (min-width: 990px){
+    .blog_page {
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: 500px;
+    }
+    .details {
+        position: absolute;
+        height: 570px;
+    }
+    .details_logo{
+        padding-top: 15px;
+    }
+    .info {
+        position: relative;
+        top: 30px;
+    } 
+    ul{
+        margin-top: 50px;
+    }
+    li {
+        margin-top: 10px;
+        padding-right: 40px;
+    }
+    .mail {
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+    #slideshow { 
+        top: 0px; 
+        padding: 10px; 
+    }
+    .mySlides {
+        display: block;
+        margin-left: 70px;
+        width: 90%;
+    }
+}

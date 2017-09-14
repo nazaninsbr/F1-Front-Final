@@ -1,0 +1,87 @@
+body {
+    background-color: #F3F3F3;
+}
+.font_ye {
+    font:18px/20px yekan;
+}
+.font_small {
+     font:12px/20px yekan;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font:14px/20px yekan;
+}
+.highest_row {
+    width: 1280px;
+    height: 150px;
+}
+.logo_header {
+    position: relative;
+    top: 20px;
+    left: 577px;
+    width: inherit;
+}
+.logo_image {
+    max-width: 60px;
+}
+.line {
+    position: relative;
+    margin: 0 5rem;
+    height: 1px;
+    background: black;
+    margin-top: 3.5rem;
+    width: 5%;
+    left: 525px;
+}
+.title_row {
+    width: 1280px;
+    height: 70px;
+}
+.title {
+    width: inherit;
+    position: relative;
+    left: 560px;
+    top: 30px;
+}
+.nav_bar {
+    height: 70px;
+    margin-top: 30px;
+}
+#writing {
+    height: 600px;
+    margin: 50px 170px;
+}
+.writing_part {
+    width: inherit;
+    height: 600px;
+    background-color: white;
+}
+.writing_title {
+    width: 940px;
+    margin: 20px 20px;
+    text-align: right;
+    float: right;
+}
+.writing_credits {
+    width: 940px;
+    margin: 20px 20px;
+    text-align: right;
+    float: right;
+}
+.writing_part_one{
+    width: inherit;
+    margin: 0px 20px;
+}
+.part_title{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.garyMcCinon {
+    text-align: right;
+    float: right;
+}
+.writing_part_two {
+    width: inherit;
+    margin: 20px 170px;
+}

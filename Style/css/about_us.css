@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+body {
+    background-color: #DFE0E0;
+}
+.font_pacifico{
+    font-family: 'Pacifico', cursive;
+}
+.site_main {
+    background-color: white;
+}
+.main_description {
+    width: 100%;
+    height: 350px;
+    background: url('http://www.boemagazine.com/wp-content/uploads/2013/11/Berlin3.jpg');
+    opacity: 0.8;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.main_description_row{
+    width: 100%;
+    text-align: center;
+}
+.main_description_row p{
+    color: papayawhip;
+    font-size: 20px;
+}
+.about_content{
+    width: 100%;
+   position: absolute;
+    top: 30%;
+}
+
+@media screen and (min-width: 870px) {
+    .site_container {
+        padding: 5px 40px;
+        overflow: hidden;
+    }
+    .site_header {
+        width: 100%;
+        min-height: 80px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .site_logo:hover {
+        text-decoration: none;
+    }
+    .logo_font {
+        font-size: 56px;
+        color: #278EC4;
+    }
+    .signUp {
+        position: absolute;
+        right: 5%;
+        top: 7%;
+        color: #278EC4;
+    }
+    .nav_bar_desktop {
+        width: 100%;
+        height: 60px;
+    }
+    .nav_bar_elements {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav_bar_elements li {
+        padding: 20px 0px;
+    }
+    .nav_bar_element {
+        color: #035E8D;
+        text-decoration: none;
+    }
+    .nav_bar_element:hover {
+        cursor: pointer;
+        text-decoration: none;
+        color: #278EC4;
+        border-bottom-color: coral;
+    }
+    .feature_f1 {
+        width: 100%;
+        min-height: 400px;
+        background-color: #F9FAFB;
+    }
+    .feature_f1_description {
+        height: inherit;
+    }
+    .feature_f1_part:hover{
+        box-shadow: 0 0 20px 7px rgba(230,231,233,0.5);
+        transition: all .2s;
+        background-color: white;
+    }
+    .feature_f1_part {
+        text-align: center;
+    }
+    .feature_f1_part p {
+        margin: 20px 20px;
+    }
+    .feature_image {
+        margin: 20px 0px;
+        width:100px;
+        height: 100px;
+    }
+    .feature_image img {
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 9px 20px 0 rgba(0, 0, 0, 0.25);
+        margin: 0px 135px;
+        width: 100px;
+        height: 100px;
+    }
+    .workwithus {
+        position: relative;
+        top: 50px;
+        text-decoration: none;
+        font-weight: 700;
+        border-color: darkviolet;
+        border-style: solid;
+        border-radius: 25px;
+        padding-top: 18px;
+        padding-right: 32px;
+        padding-bottom: 18px;
+        padding-left: 32px;
+    }
+    .site_parts_heading{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 869px and min-width: 420px){
+    
+}
+@media screen and (max-width: 420px){
+    
+}
