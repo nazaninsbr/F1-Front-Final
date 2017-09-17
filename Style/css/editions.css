@@ -74,7 +74,7 @@ a {
 .top {
   width: 336px;
   height: 100px;
-  background: 7px 0 url(https://www.walldevil.com/wallpapers/a42/texture-wallpaper-woody-black-wallpapers.jpg);
+  background: 7px 0 url('./Style/image/wood1.jpg');
   background-size: 88%;
   position: absolute;
   top: 0;
