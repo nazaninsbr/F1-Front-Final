@@ -37,7 +37,6 @@ body {
     top: 30%;
 }
 
-@media screen and (min-width: 870px) {
     .site_container {
         padding: 5px 40px;
         overflow: hidden;
@@ -131,10 +130,3 @@ body {
     .site_parts_heading{
         text-align: center;
     }
-}
-@media screen and (max-width: 869px and min-width: 420px){
-    
-}
-@media screen and (max-width: 420px){
-    
-}
