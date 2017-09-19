@@ -2,6 +2,10 @@
     box-sizing: border-box;
     
 }
+@font-face{
+    font-family: myFirstFont;
+    src: url("./Style/Fonts/irsans_p30download.com.ttf");
+}
 div {
     display: block;
 }
@@ -153,6 +157,8 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    font-family: myFirstFont;
+    direction: rtl;
 }
 .main_description_row{
     text-align: center;
@@ -229,6 +235,7 @@ a {
     position: relative;
     direction: rtl;
     text-align: justify;
+    font-family: myFirstFont;
 }
 
 .person_who_said_it{
