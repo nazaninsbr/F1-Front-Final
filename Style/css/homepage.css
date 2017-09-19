@@ -2,14 +2,11 @@
     box-sizing: border-box;
     
 }
-@font-face{
-    font-family: myFirstFont;
-    src: url("./Style/Fonts/irsans_p30download.com.ttf");
-}
 div {
     display: block;
 }
 body {
+    font-family: 'Sahel', sans-serif; 
     background-color: #DFE0E0;
 }
 .font_pacifico{
@@ -157,7 +154,6 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    font-family: myFirstFont;
     direction: rtl;
 }
 .main_description_row{
@@ -235,7 +231,6 @@ a {
     position: relative;
     direction: rtl;
 /*    text-align: justify;*/
-    font-family: myFirstFont;
 }
 
 .person_who_said_it{
