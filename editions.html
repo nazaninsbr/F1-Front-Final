@@ -68,16 +68,27 @@
     
         <div class="shelf_part">
             <div id="shelf">
-                <div class="mag_cover_1">
-                    <a href="./magazines/17/index.html">
+                <div class="mag_cover_5">
+                    <a id="myBtn" href="#">
                         <img src="./Style/image/Covers/S96.jpg">
                     </a>
                 </div>
+                <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div style="direction: rtl;" class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>این شماره به زودی روی سایت قرار خواهد گرفت</p>
+                </div>
+
+</div>
+<!--
                 <div class="mag_cover_2">
                     <a href="./magazines/S95/index.html">
                         <img src="./Style/image/Covers/panjere.jpg">
                     </a>
                 </div>
+-->
                 <div class="top"></div>
                 <div class="front"></div>
                 <div class="shadow"></div>
@@ -136,12 +147,12 @@
             <div class="second_shelf">
                 <div id="shelf">
                     <div class="mag_cover_3"> 
-                        <a href="./magazines/14/index.html">
+                        <a href="./magazines/13/index.html">
                             <img src="./Style/image/Covers/13.png">
                         </a>
                     </div>
                     <div class="mag_cover_4">
-                        <a href="./magazines/ICPC2015/index.html">
+                        <a href="./magazines/11/index.html">
                             <img src="./Style/image/Covers/11.png">
                         </a>
                     </div>
@@ -153,12 +164,12 @@
             <div class="second_shelf">
                 <div id="shelf">
                     <div class="mag_cover_3"> 
-                        <a href="./magazines/14/index.html">
+                        <a href="./magazines/9/index.html">
                             <img src="./Style/image/Covers/9.png">
                         </a>
                     </div>
                     <div class="mag_cover_4">
-                        <a href="./magazines/ICPC2015/index.html">
+                        <a href="./magazines/8/index.html">
                             <img src="./Style/image/Covers/8.png">
                         </a>
                     </div>
@@ -170,12 +181,12 @@
             <div class="second_shelf">
                 <div id="shelf">
                     <div class="mag_cover_3"> 
-                        <a href="./magazines/14/index.html">
+                        <a href="./magazines/7/index.html">
                             <img src="./Style/image/Covers/7.png">
                         </a>
                     </div>
                     <div class="mag_cover_4">
-                        <a href="./magazines/ICPC2015/index.html">
+                        <a href="./magazines/6/index.html">
                             <img src="./Style/image/Covers/6.png">
                         </a>
                     </div>
@@ -187,12 +198,12 @@
             <div class="second_shelf">
                 <div id="shelf">
                     <div class="mag_cover_3"> 
-                        <a href="./magazines/14/index.html">
+                        <a href="./magazines/ICPC1/index.html">
                             <img src="./Style/image/Covers/ICPC1.png">
                         </a>
                     </div>
                     <div class="mag_cover_4">
-                        <a href="./magazines/ICPC2015/index.html">
+                        <a href="./magazines/DF/index.html">
                             <img src="./Style/image/Covers/special2.png">
                         </a>
                     </div>
@@ -204,12 +215,12 @@
             <div class="second_shelf">
                 <div id="shelf">
                     <div class="mag_cover_3"> 
-                        <a href="./magazines/14/index.html">
+                        <a href="./magazines/5/index.html">
                             <img src="./Style/image/Covers/5.png">
                         </a>
                     </div>
                     <div class="mag_cover_4">
-                        <a href="./magazines/ICPC2015/index.html">
+                        <a href="./magazines/4/index.html">
                             <img src="./Style/image/Covers/4.png">
                         </a>
                     </div>
@@ -221,12 +232,12 @@
             <div class="second_shelf">
                 <div id="shelf">
                     <div class="mag_cover_3"> 
-                        <a href="./magazines/14/index.html">
+                        <a href="./magazines/3/index.html">
                             <img src="./Style/image/Covers/3.png">
                         </a>
                     </div>
                     <div class="mag_cover_4">
-                        <a href="./magazines/ICPC2015/index.html">
+                        <a href="./magazines/2/index.html">
                             <img src="./Style/image/Covers/2.png">
                         </a>
                     </div>
@@ -238,7 +249,7 @@
             <div class="second_shelf">
                 <div id="shelf">
                     <div class="mag_cover_5"> 
-                        <a href="./magazines/14/index.html">
+                        <a href="./magazines/1/index.html">
                             <img src="./Style/image/Covers/1.png">
                         </a>
                     </div>
@@ -269,6 +280,42 @@
     
 
 
+    
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+    
+    
+    
+    
+    
     
 </body>
 </html>

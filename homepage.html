@@ -82,22 +82,22 @@
 -->
                 <div class="col-md-3 col-xs-3 book_padding"> 
                     <div class="book">
-                         <img src="./Style/image/17.jpg">
+                         <img src="./Style/image/Covers/17.jpg">
                     </div>
                 </div>
                 <div class="col-md-3 col-xs-3 book_padding">
                     <div class="book">
-                         <img src="./Style/image/S95.jpg">
+                         <img src="./Style/image/Covers/10.png">
                     </div>
                 </div>
                 <div class="col-md-3 col-xs-3 book_padding"> 
                     <div class="book">
-                         <img src="./Style/image/16.png">
+                         <img src="./Style/image/Covers/16.png">
                     </div>
                 </div>
                 <div class="col-md-3 col-xs-3 book_padding">
                     <div class="book">
-                         <img src="./Style/image/15.jpg">
+                         <img src="./Style/image/Covers/15.png">
                     </div>
                 </div>
             </div>
@@ -129,7 +129,7 @@
                     </div>
                     <div class="col-sm-3">
                         <a class="new_stuff_a" href="./editions.html">
-                            <img class="new_stuff_image" src="./Style/image/S96.jpg">
+                            <img class="new_stuff_image" src="./Style/image/Covers/S96.jpg">
                             <h5>
                                 شماره‌ی ورودی‌های جدید ۹۶
                             </h5>
@@ -137,7 +137,7 @@
                     </div>
                     <div class="col-sm-3">
                         <a class="new_stuff_a" href="./magazines/17/index.html">
-                            <img class="new_stuff_image" src="./Style/image/17.jpg">
+                            <img class="new_stuff_image" src="./Style/image/Covers/17.jpg">
                             <h5>
                                 شماره‌ی ۱۷
                             </h5>
@@ -172,7 +172,7 @@
         
         <div class="testimonials">
             <div>
-                <div class="item-1">
+                <div class="item-1 te">
                     <p>
                         
                         به نظر من یکی از مهم‌ترین جنبه‌های اف‌یک یاد گرفتن کار گروهی و همکاری با افراد زیاد در یک تیم است. این که بسیاری از مراحل باید از صفر تا صد انجام شود هم در زندگی حرفه‌ای بسیار به افراد کمک می‌کند.
@@ -182,7 +182,7 @@
                          امیررضا دادفرنیا
                     </p>
                 </div>
-                <div class="item-2">
+                <div class="item-2 te">
                     <p>
                              اف‌یک مقدمه‌ی وارد شدن من به ای‌سی‌ام را فراهم کرد و تقریبا اولین بار بود که کار گروهی را به معنای واقعی تجربه کردم. علاوه بر آن دوستی‌هایی که سر اف‌یک شکل گرفت از ماندگارترین‌ها شد.
 
@@ -192,7 +192,7 @@
                        نیلوفر شریفی
                     </p>
                 </div>
-                <div class="item-3">
+                <div class="item-3 te">
                     <p>
                         
                                 فرصتی است که افق‌های دورتری از درس‌های دانشگاهی را ببینید. بفهمید تکنولوژی روز دنیا به کدام جهت می‌رود و چه طور می‌شود درگیر مباحث جدید شد.
@@ -237,6 +237,48 @@
         <footer></footer>
         
     </div>
+    
+    
+    
+    
+    
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        var biggestHeight = 0;
+        // Loop through elements children to find & set the biggest height
+        
+        function changeHeight(){
+//            alert($(".te").height());
+            if($(".te").height()> $(".testimonials").height()){
+
+                $(".testimonials").height($(".te").height());
+
+            }
+            if($(".main_description_row").height()> $(".main_description").height()){
+
+                $(".main_description").height($(".main_description_row").height());
+
+            }
+        }
+        
+        changeHeight();
+//        $("Testimonials").(function(){
+//            // If this elements height is bigger than the biggestHeight
+//            if ($(this).height() > biggestHeight ) {
+//            // Set the biggestHeight to this Height
+//            biggestHeight = $(this).height();
+//            }  
+//        });
+//
+//        // Set the container height
+//        $(".testimonials").height(biggestHeight);
+//        
+    </script>
+    
+    
+    
     
 </body>
 </html>

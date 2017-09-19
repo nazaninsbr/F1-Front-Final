@@ -72,9 +72,7 @@ a {
     color: #1199D8;
 }
 .intro_content p {
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 50px;
+    text-align: center;
 }
 #list_articles container {
     padding: 0px 0px;
@@ -97,7 +95,8 @@ a {
 }
 .card_image {
     background-image:  url("../image/hack.jpeg");
-    background-size:110%;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0px 0px;
     height: 200px;
     width: 100%;
