@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    
+}
+div {
+    display: block;
+}
+body {
+    font-family: 'Sahel', sans-serif; 
+    background-color: #DFE0E0;
+}
+.font_pacifico{
+    font-family: 'Pacifico', cursive;
+}
+.site_main {
+    background-color: white;
+}
+
+
+.site_container {
+    padding: 5px 40px;
+    overflow: hidden;
+}
+.site_header {
+    width: 100%;
+    min-height: 80px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+    .site_logo:hover {
+        text-decoration: none;
+    }
+    .logo_font {
+        font-size: 56px;
+        color: #278EC4;
+    }
+    .signUp {
+        position: absolute;
+        right: 5%;
+        top: 7%;
+        color: #278EC4;
+    }
+    .nav_bar_desktop {
+        width: 100%;
+        height: 60px;
+    }
+    .nav_bar_elements {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav_bar_elements li {
+        padding: 20px 0px;
+    }
+    .nav_bar_element {
+        color: #035E8D;
+        text-decoration: none;
+    }
+    .nav_bar_element:hover {
+        cursor: pointer;
+        text-decoration: none;
+        color: #278EC4;
+        border-bottom-color: coral;
+    }
+.team{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    direction: rtl;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.team_member_image img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+.team_member_intro{
+    padding-bottom: 30px;
+}

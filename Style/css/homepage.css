@@ -122,12 +122,16 @@ a {
 .book_shelf_description {
     color: white;
     text-align: center;
+    padding-bottom: 10px;
 }
 .new_stuff{
     background-color: white;
     width: 100%;
     text-align: center;
-    padding: 50px 0px;
+    padding: 50px 5px;
+}
+.new_stuff_title{
+    margin-top: 26%;
 }
 .new_stuff_a{
     text-decoration: none;
@@ -138,8 +142,8 @@ a {
     color: royalblue;
 }
 .new_stuff_image{
-    width: 150px;
-    height: 150px;
+    width: 155px;
+    height: 185px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 10px;
 }
@@ -396,9 +400,23 @@ a {
     border-bottom-left-radius: 5px;
     }
     .main_description_row p{
-        font-size: 24px;
+        font-size: 16px;
     }
     .testimonials {
         font-size: 12px;
+        height: 500px;
+    }
+    .new_stuff_title{
+    margin-top: -3%;
+    margin-bottom: 5%;
+    }
+    .contact_us_content {
+    float: left;
+    display: block;
+    position: absolute;
+    top: 10%;
+    margin-right: 1.6949152542%;
+    width: 49.1525423729%;
+    margin-left: 25.4237288136%;
     }
 }

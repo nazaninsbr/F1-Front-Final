@@ -16,8 +16,9 @@
     <div class="site_container">
         
         <header class="site_header">
-            <a class="site_logo logo_a" href="./homepage.html">
+            <a class="site_logo" href="./homepage.html">
                 <h1 class="font_pacifico logo_font">F1</h1>
+                <h1 class="logo_font" style="float:right; position: absolute; right:5%; top:-0.5%;">اف‌یک</h1>
             </a>
            <!--  <a class="signUp" href="./signup.html">
                 <p>Signup/Login</p>
@@ -40,7 +41,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="./blog.html" class="nav_bar_element">
+                            <a href="./blog2.html" class="nav_bar_element">
                                 بلاگ
                             </a>
                         </li>
@@ -117,13 +118,13 @@
         <div class="container new_stuff">
             <div class="row">
                 <div class="col-md-3">
-                    <h2>
+                    <h2 class="new_stuff_title">
                         تازه‌ها
                     </h2>
                 </div>
                 <div class="col-md-9">
                     <div class="col-sm-3">
-                        <a class="new_stuff_a">
+                        <a href="./news.html" class="new_stuff_a">
                             <img class="new_stuff_image" src="./Style/image/eid.jpg">
                             <h5>
                                 عیدانه ۹۵
@@ -147,7 +148,7 @@
                         </a>
                     </div>
                     <div class="col-sm-3">
-                        <a class="new_stuff_a">
+                        <a href="./articles.html" class="new_stuff_a">
                             <img class="new_stuff_image" src="./Style/image/hack.jpg">
                             <h5>
                                 داستان‌های هک
@@ -219,7 +220,7 @@
                 اخبار انتشار شماره‌های جدید، همکاری با اف‌یک و ... را دریافت کنید
                 </h3>
                 <form class="contact_us_form">
-                    <input type="text" placeholder="Your Name">
+                     <input type="text" placeholder="Your Name">
 			         <input type="text" placeholder="Email">
                     <button type="submit" id="submit-button">Submit</button>
                 </form>
@@ -249,24 +250,24 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
-        var biggestHeight = 0;
-        // Loop through elements children to find & set the biggest height
+//         var biggestHeight = 0;
+//         // Loop through elements children to find & set the biggest height
         
-        function changeHeight(){
-//            alert($(".te").height());
-            if($(".te").height()> $(".testimonials").height()){
+//         function changeHeight(){
+// //            alert($(".te").height());
+//             if($(".te").height()> $(".testimonials").height()){
 
-                $(".testimonials").height($(".te").height());
+//                 $(".testimonials").height($(".te").height());
 
-            }
-            if($(".main_description_row").height()> $(".main_description").height()){
+//             }
+//             if($(".main_description_row").height()> $(".main_description").height()){
 
-                $(".main_description").height($(".main_description_row").height());
+//                 $(".main_description").height($(".main_description_row").height());
 
-            }
-        }
+//             }
+//         }
         
-        changeHeight();
+//         changeHeight();
 //        $("Testimonials").(function(){
 //            // If this elements height is bigger than the biggestHeight
 //            if ($(this).height() > biggestHeight ) {

@@ -5,6 +5,7 @@ div {
     display: block;
 }
 body {
+    font-family: 'Sahel', sans-serif;
     background-color: #DFE0E0;
 }
 .font_pacifico{
@@ -28,7 +29,8 @@ body {
     text-align: center;
 }
 .main_description_row p{
-    color: papayawhip;
+    opacity: 1;
+    color: black;
     font-size: 20px;
 }
 .about_content{
@@ -93,7 +95,7 @@ body {
         height: inherit;
     }
     .feature_f1_part:hover{
-        box-shadow: 0 0 20px 7px rgba(230,231,233,0.5);
+        box-shadow: 7px 0 20px 7px rgba(230,231,233,0.5);
         transition: all .2s;
         background-color: white;
     }

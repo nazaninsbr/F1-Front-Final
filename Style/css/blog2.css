@@ -1,7 +1,8 @@
 body {
-    font-family: 'Sahel', sans-serif; 
+    font-family: 'Sahel', sans-serif;
     display: block;
     background-color: #DFE0E0;
+/*    font:14.5px/25px yekan;*/
 }
 a {
     color: black;
@@ -12,6 +13,7 @@ a {
     font-family: 'Pacifico', cursive;
 }
 .site_container {
+    font-family: 'Sahel', sans-serif;
     padding: 5px 40px;
     overflow: hidden;
 }
@@ -95,13 +97,22 @@ a {
     color: black;
 }
 .card_image {
-    background-image:  url("../image/hack.jpeg");
+    
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px 0px;
     height: 200px;
     width: 100%;
     
+}
+.img1{
+    background-image:  url("../image/blog/motherBoard.jpg");
+}
+.img2{
+    background-image:  url("../image/blog/ram.jpg");
+}
+.img3{
+    background-image:  url("../image/blog/graphicCard.jpg");
 }
 .card_overlay_1 {
     height: 100%;

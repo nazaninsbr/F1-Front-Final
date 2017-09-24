@@ -1,7 +1,7 @@
 body {
     display: block;
     background-color: #DFE0E0;
-    font:14.5px/25px yekan;
+    font-family: 'Sahel', sans-serif;
 }
 a {
     color: black;
@@ -50,6 +50,7 @@ a {
     padding: 20px 0px;
 }
 .nav_bar_element {
+    font-family: 'Sahel', sans-serif;
     color: #035E8D;
     text-decoration: none;
 }
@@ -121,16 +122,17 @@ a {
     opacity: 0.4;
 }
 .card_description h4{
+    font-family: 'Sahel', sans-serif;
     text-align: center;
 }
 .card_description p{
+    font-family: 'Sahel', sans-serif;
     text-align: right;
     position: relative;
     right: 15px;
     margin-top: 25px;
 }
 .card_image span{
-    font:12px/25px yekan;
     position: relative;
     background-color: white;
     width: 10px;
