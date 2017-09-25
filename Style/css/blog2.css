@@ -89,8 +89,9 @@ a {
     box-shadow: 4px 6px 8px 0px rgba(46,61,73,0.2);
     height: 340px;
     background-color: white;
-    padding: 0px 0px;
-    margin: 0px 10px;
+    margin-top: 20px;
+/*    padding: 0px 0px;*/
+/*    margin: 0px 10px; */
 }
 .card a {
     text-decoration: none;

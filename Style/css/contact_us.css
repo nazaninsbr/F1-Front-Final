@@ -70,9 +70,10 @@ a {
     text-align: center;
 }
 #our_office {
+    padding-top: 20px;
 	width: inherit;
 	margin: 0px;
-	padding: 0px;
+    background-color: white;
 }
 #our_office .container {
     background-color: white;

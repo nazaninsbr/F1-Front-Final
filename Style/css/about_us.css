@@ -5,6 +5,7 @@ div {
     display: block;
 }
 body {
+    
     font-family: 'Sahel', sans-serif;
     background-color: #DFE0E0;
 }
@@ -87,6 +88,7 @@ body {
         border-bottom-color: coral;
     }
     .feature_f1 {
+        direction: rtl;
         width: 100%;
         min-height: 400px;
         background-color: #F9FAFB;
@@ -98,11 +100,14 @@ body {
         box-shadow: 7px 0 20px 7px rgba(230,231,233,0.5);
         transition: all .2s;
         background-color: white;
+        height: 313px;
+        padding-top: 20px;
     }
     .feature_f1_part {
         text-align: center;
     }
     .feature_f1_part p {
+        text-align: justify;
         margin: 20px 20px;
     }
     .feature_image {
