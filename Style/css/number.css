@@ -17,11 +17,14 @@ body {
 .site_container {
     padding: 5px 40px;
     overflow: hidden;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
 }
-    .site_header {
-        width: 100%;
-        min-height: 80px;
-    }
+.site_header {
+    width: 100%;
+    min-height: 100px;
+}
     .nav_bar_element {
         text-decoration: none;
         color: black;
